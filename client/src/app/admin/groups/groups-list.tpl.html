@@ -1,0 +1,17 @@
+<table class="table table-bordered table-condensed table-striped table-hover">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="group in groups" ng-click="edit(group.$id())">
+        <td>{{group.name}}</td>
+        <td>{{group.desc}}</td>
+    </tr>
+    </tbody>
+</table>
+<div class="well">
+    <button class="btn" ng-click="new()">New group</button>
+</div>

@@ -2,6 +2,7 @@ angular.module('app', [
   'ngRoute',
   'projectsinfo',
   'dashboard',
+  'groups',
   'projects',
   'admin',
   'services.breadcrumbs',
